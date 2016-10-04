@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/parallax.js/parallax.min.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.js/"></script>
+    <script src="bower_components/polymer/polymer.html"></script>
+    <script src="bower_components/bower_components/paper-icon-button/paper-icon-button.html"></script>
+    <link rel="import" href="bower_components/paper-tabs-master/paper-tabs.html">
+    <link rel="import" href="bower_components/paper-tabs-master/paper-tab.html">
+    <link rel="import" href="bower_components/polymer/polymer-mini.html">
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/bower_components/paper-icon-button/paper-icon-button.html">
+    <style>
+        h4{
+            text-align: center;
+            color: black;
+            text-decoration: none; !important;
+            padding-bottom: 30px;
+        }
+        body{margin:0;font-family:'Roboto', 'Noto', sans-serif;font-size:13px;line-height:1.5;min-height:100vh;
+            text-align:center;font-size:16px;font-weight:600;letter-spacing:0.3em;color:#202020;padding:0 16px;overflow:visible;
+        }
+        a{
+            text-decoration: none;
+        }
+        .menu-btn{
+            float: left;
+        }
+        .icon_menu{
+            width: 30px;
+            height: 30px;
+        }
+        .link {
+            @apply(--layout-horizontal);
+            @apply(--layout-center-center);
+            padding: 20px;
+            color: black;
+            font-size: 13px;
+            letter-spacing: 1px;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="container">
+            <div class="row">
+                <a href="index.html"><h4><b>SHOP</b></h4></a>
+                <div class="left-bar-item">
+                    <paper-icon-button class="menu-btn" icon="menu" aria-label="Categories" role="button" tabindex="0" aria-disabled="false">
+                        <img src="data:image/png;base64,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" class="icon_menu">
+                    </paper-icon-button>
+                </div>
+                <paper-tabs selected="0">
+                    <paper-tab link>
+                        <a href="#link1" class="link" tabindex="-1">Men's Outerwear</a>
+                    </paper-tab>
+                    <paper-tab link>
+                        <a href="#link2" class="link" tabindex="-1">Ladies Outerwear</a>
+                    </paper-tab>
+                    <paper-tab link>
+                        <a href="#link3" class="link" tabindex="-1">Men's T-Shirts</a>
+                    </paper-tab>
+                    <paper-tab link>
+                        <a href="#link4" class="link" tabindex="-1">Ladies T-Shirts</a>
+                    </paper-tab>
+                </paper-tabs>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container">
+
+        </div>
+    </div>
+</body>
+</html>
